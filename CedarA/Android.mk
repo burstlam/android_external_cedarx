@@ -78,7 +78,7 @@ ifneq ($(CEDARX_DEBUG_ENABLE),N)
 include $(CLEAR_VARS)
 
 
-include $(LOCAL_PATH)/../../Config.mk
+include $(LOCAL_PATH)/../Config.mk
 ifeq ($(CEDARX_ANDROID_VERSION),4)
 CEDARA_VERSION_TAG = _
 else
@@ -141,7 +141,7 @@ include $(BUILD_SHARED_LIBRARY)
 include $(CLEAR_VARS)
 
 
-include $(LOCAL_PATH)/../../Config.mk
+include $(LOCAL_PATH)/../Config.mk
 ifeq ($(CEDARX_ANDROID_VERSION),4)
 CEDARA_VERSION_TAG = _
 else
